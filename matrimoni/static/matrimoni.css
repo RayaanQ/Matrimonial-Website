@@ -1,0 +1,486 @@
+*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;}
+
+body{
+	background: var(--black);
+}
+
+.btn a {
+	text-decoration: none;
+	/* color: #fff; */
+}
+
+header{
+	background: url('../Images/pexels-studio-negarin-2613458.jpg') no-repeat center center/cover;
+	height: 670px;
+	
+}
+.info{
+	color: white;
+	font-size: 20px;
+	padding: 20px 70px;
+	cursor: pointer;
+}
+.info span{
+	margin:0 10px;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	padding: 0 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	color: white;
+	font-size: 2em;
+	font-family: normal;
+	height: 96px;
+	letter-spacing: 2px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.logo i{
+	color:#e84393;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	transition: 0.4s;
+}
+.menu a:last-child{
+	background:#e84393;
+	border-radius: 8px;	
+}
+.menu a:hover{
+	background:#e84393;
+	border-radius: 8px;		
+}
+/* .box{
+	/* background: white;
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	top:25%;
+	right: 5%;
+	padding: 30px; */
+/* } */ */
+form{
+	width: 100%;
+}
+form input[type="text"]{
+	width: 43%;
+    padding: 27px 287px;
+    margin: 8px 468px;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.1);
+}
+form input[type="submit"]{
+	width: 43%;
+    padding: 24px 10px;
+    margin: 12px 469px;
+    outline: none;
+    border: none;
+    background: #e84393;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+form input[type="submit"]:hover{
+	background: transparent;
+	border:1px solid grey;
+	color: black;
+}
+.box span{
+	color: #e84393;
+	cursor: pointer;
+}
+.htext{
+	position: absolute;
+	top:23%;
+	left: 5%;
+	max-width: 600px;
+	color: white;
+}
+.htext h1{
+	font-size: 2em;
+}
+.htext h2{
+	font-size: 4em;
+}
+.htext span{
+	color: #e84393;
+}
+.htext p{
+	margin: 15px 0;
+	line-height: 2em;
+}
+.htext a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border:1px solid white;
+	letter-spacing: 2px;
+	border-radius: 8px;
+	transition: 0.4s;
+}
+
+.htext a:hover{
+	background: #e84393;
+}
+
+
+/* Services Section */
+#services{
+	/* margin: 34px;
+	display: flex; */
+	/* background: darkblue; */
+	/* border: 2px solid brown; */
+	margin : 1rem ;
+	padding : 2rem;
+	border-radius: .5rem;
+	background: darkblue;
+	/* box-shadow: 0.5rem 1rem rgba(0,0,0,.9); */
+	text-align: center;
+	flex: 1 1 30rem;
+	display: flex; 
+	
+}
+
+#services .box{
+	 /* border: 3px solid #e84393; 
+	background-color: rgb(240, 224, 224);
+	margin: 12px;
+	border-radius: 28px;  */
+     background: #fff;
+	 margin: 1rem;
+	 padding: 2rem;
+	 border-radius: .5rem;
+	 box-shadow: 0.2rem 1rem 1rem 1rem rgb(12 0 93);
+	 text-align: center;
+	 height: 403px;
+	 
+	 
+
+	
+}
+
+.box span{
+	font-size: 2.5rem;
+	font-weight: bold;
+	color:  rgb(12 0 93);
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* #services .box img{
+	height: 100px;
+	margin: auto;
+    display: block;
+	
+} */
+
+.services-container{
+	
+	margin-top: 535px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(255 0 85 / 89%);
+	
+}
+
+.box p{
+	font-size: 1rem;
+	color: #666 ;
+	padding: 1rem 0;
+	font-family: 'Ubuntu', sans-serif;
+	
+
+}
+
+.box p:hover{
+	transform: scale(1.3);
+	transition: all .5s  ease-in-out .3s;
+}
+
+.h-primary{
+	font-size: 3.5rem;
+	padding: 12px;
+	font-family: 'Ubuntu', sans-serif;
+
+	
+}
+
+.h-secondary{
+	font-size: 6rem;
+	color: rgb(255, 0, 85);
+	font-weight: bolder;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.btn:hover{
+	background-color: rgb(255, 0, 85);
+	color : rgb(12 0 93);
+}
+
+/* vendor section  */
+.heading{
+	 margin: 45px;
+}
+.heading h3{
+	text-align: center;
+	font-size: 4rem;
+	margin: 26px;
+	text-transform: uppercase;
+	height: 8px;
+}
+.heading img{
+	height: 144px;
+    margin: 0px 564px;
+    width: 272px;
+}
+
+
+.box1 p{
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px;
+	
+}
+
+.box1 img:hover{
+	transform: scale(1.3);
+	transition: all .5s ease-in-out .3s;
+}
+
+/* Clients-section */
+
+.clients{
+	background-color: rgb(12 0 93);
+	padding: 53px;
+}
+.info h3{
+	color: black;
+}
+
+.info p {
+	color: black;
+}
+
+.orna{
+	height: 1077px;
+    width: 6%;
+    margin-left: 88px;
+    filter: invert(100%);
+}
+
+.clients .row{
+	display: flex;
+}
+
+.clients .row .orna{
+	padding: 0 1rem;
+}
+
+.clients .row .box-container .Box img{
+	height: 22rem;
+    width: 77%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 2rem solid #fff;
+    box-shadow: 0.5rem 1rem rgb(0 0 0 / 90%);
+
+}
+.clients .row .box-container .Box .info{
+	padding: 2rem 0;
+}
+
+.clients .row .box-container .Box .info h3 {
+   font-size: 2.5rem;
+   color: #fff;
+}
+
+.clients .row .box-container .Box .info p{
+	font-size: 1.7rem;
+	color: #eee;
+	padding: 1rem 0;
+	font-style: italic;
+}
+.clients .row .box-container .Box .info p i{
+	color: #e84393;
+	padding: 0.5rem;
+}
+.hclient{
+	color: #fff;
+}
+
+.invert{
+	filter: invert(100%);
+}
+
+
+/* team section */
+.team{
+	background-color: #e84393;
+	
+}
+.team .box-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.team .box-container .Box {
+    margin: 5rem;
+    border: 0.5rem;
+    /* box-shadow: 0.5rem 1rem rgb(0 0 0 / 90%); */
+	border: 13px solid black;
+    /* background: #fff url('https://png.pngitem.com/pimgs/s/527-5277292_wedding-border-design-royal-blue-hd-png-download.png'); */
+	/* background: .pngitem.com/pimgs/s/527-5277292_wedding-border-design-royal-blue-hd-png-download.png);  */
+    background: rgb(217 212 212 / 48%);
+    padding: 1.7rem 5rem;
+    text-align: center;
+    background-size: cover;
+    flex: 1 1 33rem;
+    border-radius: 30px;}
+
+.team .box-container .Box img{
+	border-radius: 50%;
+	object-fit: cover;
+	height: 15rem;
+	width: 15rem;
+	padding: 1rem;
+}
+.team .box-container .Box h3{
+	font-size: 2.5rem;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+
+}
+.team .box-container .Box span{
+	font-size: 2rem;
+	color: #e84393;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.team .box-container .Box p{
+	font-size: 1.5rem;
+	color: white;
+	padding: 1rem 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.team .box-container .Box .share{
+	padding : 1rem 0;
+}
+.team .box-container .Box .share a{
+	height: 4rem;
+	width: 4rem;
+	line-height: 4rem;
+	font-size: 2rem;
+	color: black;
+	background: #eee;
+}
+
+.team .box-container .Box .share a:hover{
+	color: #fff;
+	background: rgb(12 0 93);
+}
+
+#teamPic{
+	width: 24%;
+    margin-left: 585px;
+}
+
+/* footer */
+.footer{
+	padding: 2.5rem 1.5rem;
+	font-size: 2rem;
+	color: black;
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.footer span{
+	color: #e84393;
+}
+/* Utility class */
+.center{
+	text-align: center;
+}
+
+
+.box1{
+	margin: 1rem;
+	 padding: 2rem;
+	 border-radius: .5rem;
+	 border: 4px solid black;
+	 text-align: center;
+	 height: 403px;
+}
+
+.container1{
+	border: 2px solid red;
+	display: flex;
+	background-color: rgb(255 0 85 / 25%) ;
+	margin-top: -39px;
+}
+
+.btn{
+	height: 61px;
+    width: 150px;
+    margin: 1px;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 21px;
+	color : #666;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
