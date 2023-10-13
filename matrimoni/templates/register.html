@@ -11,56 +11,64 @@
   <div class="container">
     <div class="title">Matrimoni Profile</div>
     <div class="content">
-      <form action="" >
+      <form action="http://localhost:3000/matrimoni/templates/process-form.php" method="post" novalidate>
         <div class="user-details">
           <div class="input-box">
-            <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
+            <label for="name" class="details">Full Name</label>
+            <input type="text" placeholder="Enter your name" id="name" name="name">
           </div>
           <div class="input-box">
-            <span class="details">City</span>
-            <input type="text" placeholder="Enter your city" required>
+            <label for="city" class="details">City</label>
+            <input type="text" placeholder="Enter your city" id="city" name="city">
           </div>
           <div class="input-box">
-            <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
+            <label for="email" class="details">Email</label>
+            <input type="text" placeholder="Enter your email" id="email" name="email">
           </div>
           <div class="input-box">
-            <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
+            <label for="number" class="details">Phone Number</label>
+            <input type="text" placeholder="Enter your number" id="number" name="number">
           </div>
           <div class="input-box">
-            <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
+            <label for="password" class="details">Password</label>
+            <input type="password" placeholder="Enter your password" id="password" name="password">
           </div>
           <div class="input-box">
-            <span class="details">Interests</span>
-            <input type="text" placeholder="Enter your interests" required>
+            <label for="confirm_password" class="details">Confirm Password</label>
+            <input type="password" placeholder="Confirm your password" id="confirm_password" name="confirm_password">
+          </div>
+          <div class="input-box">
+            <label for="interests" class="details">Interests</label>
+            <input type="text" placeholder="Enter your interests" id="interests" name="interests">
+          </div>
+          <div class="input-box">
+            <label for="age" class="details">Age</label>
+            <input type="text" placeholder="Enter your age" id="age" name="age">
           </div>
         </div>
         <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
+          <input type="radio" name="gender" id="dot-1" value="1">
+          <input type="radio" name="gender" id="dot-2" value="2">
+          <input type="radio" name="gender" id="dot-3" value="3">
           <span class="gender-title">Gender</span>
           <div class="category">
             <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Prefer not to say</span>
             </label>
           </div>
         </div>
         <div class="button">
-     <input type="submit" value="Register">
-     <!-- <button> <a href="" target="_blank" rel="noopener noreferrer"></a> Register</button> -->
+        <input type="submit" value="Register">
+        <!-- <button> <a href="" target="_blank" rel="noopener noreferrer"></a> Register</button> -->
         </div>
       </form>
     </div>
